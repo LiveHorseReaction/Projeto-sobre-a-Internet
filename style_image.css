@@ -1,0 +1,30 @@
+.imgborder img:not(#roteamento_onion){
+    max-width: 500px;
+    width: 60%;
+    height: auto;
+    border: 5px solid #d6e9e9;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+}
+
+#roteamento_onion{
+    width: 90%;
+    height: auto;
+    border: 5px solid #d6e9e9;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+}
+
+#globe {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+}
+
+.imgtable img{
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+}

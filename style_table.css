@@ -1,0 +1,13 @@
+table {
+    border: 3px solid #838383;
+    border-radius: 5px;
+}
+
+.tabletitle {
+    border: 2px solid #838383;
+    background-color: #DBDBDB;
+}
+
+td, th {
+    border: 2px solid #707070;
+}

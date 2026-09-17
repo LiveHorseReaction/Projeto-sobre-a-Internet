@@ -1,0 +1,14 @@
+#header {
+    background-color: #e5ffff;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin-bottom: 40px;
+    border-bottom: 5px solid #daf3f3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu {
+    align-items: center;
+}

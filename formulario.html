@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_bg.css">
+    <link rel="stylesheet" href="style_text.css">
+    <link rel="stylesheet" href="style_div.css">
+    <link rel="stylesheet" href="style_header.css">
+    <link rel="stylesheet" href="style_footer.css">
+    <link rel="stylesheet" href="style_form.css">
+    <title>Internetopia: Formulário</title>
+    <link rel="icon" type="image/x-icon" href="/sitewideimagens/favicon.ico">
+    <link rel="shortcut icon" href="sitewideimagens/favicon.ico">
+</head>
+
+<body>
+    <div id="header">
+        <h2>Internetopia</h2>
+        <div id="menu">
+            <a class="nav_text" href="index.html">Index</a>
+            <a class="nav_text" href="internet.html">Internet</a>
+            <a class="nav_text" href="navegadores.html">Navegadores</a>
+            <a class="nav_text" href="formulario.html">Formulário</a>
+        </div>
+    </div>
+    <div class="divform">
+        <h3>Realize este formulário para entrar em contato comigo.</h3>
+        <form action="forms.php" method="get">
+            <div class="subdivform">
+                <label for="">Digite seu nome/apelido preferido.</label>
+                <br>
+                <input class="txtbar" type="text">
+            </div>
+            <div class="subdivform">
+                <label for="gender_and_pronoun">Digite seu gênero e pronomes preferidos.</label>
+                <br>
+                <input class="txtbar" type="text" name="gender_and_pronoun">
+            </div>
+            <div class="subdivform">
+                <label for="mail">Digite seu e-mail abaixo.</label>
+                <br>
+                <label for="mail">Aliases de e-mail e e-mails temporários são aceitáveis.</label>
+                <br>
+                <input class="txtbar" type="email" name="mail">
+            </div>
+            <div class="subdivform">
+                <label for="reason">Quais são os motivos de entrar em contato comigo?</label>
+                <br>
+                <input class="checkbox" type="checkbox" name="feedback"><label for="feedback">Feedback</label>
+                <input class="checkbox" type="checkbox" name="bugreport"><label for="bugreport">Reportagem de erros/bugs</label>
+                <input class="checkbox" type="checkbox" name="misinformation"><label for="misinformation">Reportagem de
+                    misinformação</label>
+                <input class="checkbox" type="checkbox" name="suggest"><label for="suggest">Sugestões</label>
+                <br>
+                <textarea class="txtbox" name="outros"
+                    placeholder="Caso nenhum de seus motivos estão listados, digite-os aqui."></textarea>
+            </div>
+            <div class="subdivform">
+                <label for="uso">Para o que você utiliza a internet?</label>
+                <br>
+                <input class="checkbox" type="checkbox" name="work"><label for="work">Trabalho</label>
+                <input class="checkbox" type="checkbox" name="study"><label for="study">Estudos</label>
+                <input class="checkbox" type="checkbox" name="entertainment"><label for="entertainment">Entreterimento</label>
+                <input class="checkbox" type="checkbox" name="social"><label for="social">Socialização</label>
+                <input class="checkbox" type="checkbox" name="research"><label for="research">Pesquisas</label>
+                <br>
+                <textarea class="txtbox" name="uso"
+                    placeholder="Caso houver outra finalidade que deseja compartilhar, coloque-as aqui."></textarea>
+            </div>
+            <div class="subdivform">
+                <label for="">Digite sua mensagem abaixo.</label>
+                <br>
+                <textarea class="txtbox" name="content"></textarea>
+            </div>
+            <div class="subdivform">
+                <input type="submit" name="send" value="Enviar">
+                <input type="reset" name="delete" value="Limpar">
+            </div>
+        </form>
+    </div>
+    <div id="footer">
+        <h3>Desenvolvido por Christofer - IFRS Campus Erechim - 2026</h3>
+    </div>
+</body>
+
+</html>

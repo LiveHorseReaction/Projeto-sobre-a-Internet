@@ -1,0 +1,22 @@
+.divtable, .divtext {
+    max-width: 70%;
+    width: fit-content;
+    margin: 30px;
+    margin-inline: auto;
+    border: 5px solid #e0f3f3;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ecffff;
+    
+}
+
+.divindex{
+    max-width: 70%;
+    width: fit-content;
+    margin: 30px;
+    margin-inline: auto;
+    border: 5px solid #e0f3f3;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ecffff;
+}

@@ -1,0 +1,42 @@
+body {
+    background-color: #eefdfd;
+}
+
+hr {
+    border: solid 2px #e4f8f8;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-color: #000000;
+    background-color: #FFFFFF;
+}
+
+.td_insufficient {
+    background-color: #DBDBDB;
+}
+
+.opensource_true, .ai_false {
+    background-color: #AAFFAA;
+}
+
+.opensource_false, .ai_true {
+    background-color: #FFAAAA;
+}
+
+.partial {
+    background-color: #FFFFAA;
+}
+
+#tor_2ndtable {
+    background-color: #ffd700;
+}
+
+#lw_2ndtable {
+    background-color: #c0c0c0;
+}
+
+#brave_2ndtable {
+    background-color: #a5472a;
+}
